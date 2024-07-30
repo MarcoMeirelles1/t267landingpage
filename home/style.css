@@ -18,10 +18,33 @@ ul {
     ;
     
 }
-li:hover{
-    color: white;
-    
+li{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: #a0a0a0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+    list-style-type: none;
 }
+li:after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+li:hover{
+    color: #ffffff;
+}
+li:hover:after{
+    width: 100%;
+}
+
   
 .menu{
     color: darkorchid;
