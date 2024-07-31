@@ -16,13 +16,13 @@ ul {
     font-weight: 300;
     font-style: normal;
     ;
-    
+   
 }
 li{
     position: relative;
     text-decoration: none;
     font-family: 'Poppins',sans-serif;
-    color: #a0a0a0;
+    color: #9868f7;
     font-size: 18px;
     letter-spacing: 0.5px;
     padding: 0 10px;
@@ -31,7 +31,7 @@ li{
 li:after{
     content: "";
     position: absolute;
-    background-color: #ff3c78;
+    background-color: #9868f7;
     height: 3px;
     width: 0;
     left: 0;
@@ -39,31 +39,42 @@ li:after{
     transition: 0.3s;
 }
 li:hover{
-    color: #ffffff;
+    color: #270a5f;
 }
 li:hover:after{
     width: 100%;
 }
 
-  
+ 
 .menu{
     color: darkorchid;
-    background-color: #1b1a22;
-    
+    background-color: #ede4ff;
+   
 }
 
 #section01 {
-    background-color: red;
+    background-color: #9868f7;
+    font-family: "Ubuntu", sans-serif;
+    color: #270a5f;
 
 }
 #section02 {
-    background-color: green;
+    background-color: #9868f7;
+    font-family: "Ubuntu", sans-serif;
+    color: #270a5f;
+    background-color: #ede4ff;
+   
 }
 #section03 {
-    background-color: yellow;
+    background-color: #9868f7;
+    font-family: "Ubuntu", sans-serif;
+    color: #270a5f;
 }
 #section04 {
-    background-color: blue;
+    background-color: #9868f7;
+    font-family: "Ubuntu", sans-serif;
+    color: #270a5f;
+    background-color: #ede4ff;
 }
 section{
     height: 70vh;
