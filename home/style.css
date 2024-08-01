@@ -12,7 +12,7 @@ ul {
     justify-content: center;
     gap: 4vw;
     font-size: 20px;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Kanit", sans-serif;
     font-weight: 300;
     font-style: normal;
     ;
@@ -21,8 +21,8 @@ ul {
 li{
     position: relative;
     text-decoration: none;
-    font-family: 'Poppins',sans-serif;
-    color: #9868f7;
+    font-family: "Kanit", sans-serif;
+    color: #13678A;
     font-size: 18px;
     letter-spacing: 0.5px;
     padding: 0 10px;
@@ -31,7 +31,7 @@ li{
 li:after{
     content: "";
     position: absolute;
-    background-color: #9868f7;
+    background-color: #13678A;
     height: 3px;
     width: 0;
     left: 0;
@@ -39,7 +39,7 @@ li:after{
     transition: 0.3s;
 }
 li:hover{
-    color: #270a5f;
+    color: #012030;
 }
 li:hover:after{
     width: 100%;
@@ -47,34 +47,32 @@ li:hover:after{
 
  
 .menu{
-    color: darkorchid;
-    background-color: #ede4ff;
-   
+    background-color: #45C4B0;
 }
 
 #section01 {
-    background-color: #9868f7;
-    font-family: "Ubuntu", sans-serif;
-    color: #270a5f;
+    background-color: #13678A;
+    font-family: "Kanit", sans-serif;
+    color: #012030;
 
 }
 #section02 {
-    background-color: #9868f7;
-    font-family: "Ubuntu", sans-serif;
-    color: #270a5f;
-    background-color: #ede4ff;
+    background-color: #45C4B0;
+    font-family: "Kanit", sans-serif;
+    color: #012030;
+    background-color: #45C4B0;
    
 }
 #section03 {
-    background-color: #9868f7;
-    font-family: "Ubuntu", sans-serif;
-    color: #270a5f;
+    background-color: #13678A;
+    font-family: "Kanit", sans-serif;
+    color: #012030;
 }
 #section04 {
-    background-color: #9868f7;
-    font-family: "Ubuntu", sans-serif;
-    color: #270a5f;
-    background-color: #ede4ff;
+    background-color: #45C4B0;
+    font-family: "Kanit", sans-serif;
+    color: #012030;
+    background-color: #45C4B0;
 }
 section{
     height: 70vh;
