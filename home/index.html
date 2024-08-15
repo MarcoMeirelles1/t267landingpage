@@ -1,85 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <header class="menu">
-      <ul>
-        <li><a href="#section01">Section 01</a></li>
-        <li><a href="#section02">Section 02</a></li>
-        <li><a href="#section03">Section 03</a></li>
-        <li><a href="#section04">Section 04</a></li>
-      </ul>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lixo Eletrônico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>EcoTech</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#problemas">Problemas</a></li>
+                <li><a href="#solucoes">Soluções</a></li>
+                <li><a href="#pontos-de-coleta">Coleta</a><li>
+            </ul>
+        </nav>
     </header>
-    <main>
-      <section id="section01">
-        <div class="section01-left-div">
-          <img
-            src="../assets/images/imgTeste.webp"
-            alt="Imagem teste"
-            class="img-style-section01"
-          />
-        </div>
-        <div class="section01-right-div">
-          <h2 class="l01">Marcao o brabo</h2>
-          <p class="p01">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
-            accusantium modi, voluptatibus deleniti illo dignissimos id voluptas
-            natus reiciendis maiores explicabo dolores quaerat architecto autem
-            unde incidunt ipsa? Ipsam, error. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Corporis, accusantium modi,
-            voluptatibus deleniti illo dignissimos id voluptas natus reiciendis
-            maiores explicabo dolores quaerat architecto autem unde incidunt
-            ipsa? Ipsam, error.
-          </p>
-        </div>
-      </section>
-      <section id="section02">
-        <h2>parte 02</h2>
-      </section>
-      <section id="section03">
-        <div class="section03-right-div">
-        <h2>Seu perfil</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, a animi? Suscipit, 
-            reprehenderit consequuntur? Dolorum placeat eaque repellat minima, sed maxime neque aperiam 
-            temporibus eos velit unde vel obcaecati necessitatibus.
-        </p>
-      </section>
-      <section id="section04">
-        <div class="left-contact">
-            <h2 class="heading-contact">Contato</h2>
-          <div>
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" />
-          </div>
-          <div>
-            <label for="mensagem">Mensagem</label>
-            <input type="text" id="mensagem" />
-          </div>
-          <button onclick="conferirMensagemWhatsApp()">
-            Conferir Mensagem
-          </button>
-        </div>
-        <div class="right-contact">
-          <div>
-            <p>Nome: <span id="confNome"></span></p>
-            <p>Mensagem: <span id="confMsg"></span></p>
-          </div>
-          <button onclick="enviar()">ZAP</button>
-        </div>
-      </section>
-    </main>
-  </body>
+    
+    <section id="sobre">
+        <h2>O que é Lixo Eletrônico?</h2>
+        <p>O lixo eletrônico refere-se a dispositivos eletrônicos descartados que não têm mais utilidade ou valor, como celulares, computadores e televisores.</p>
+    </section>
+
+    <section id="problemas">
+        <h2>Problemas Causados pelo Lixo Eletrônico</h2>
+        <p>O descarte inadequado de eletrônicos pode liberar substâncias tóxicas no meio ambiente, prejudicando a saúde pública e contaminando o solo e a água.</p>
+    </section>
+
+    <section id="solucoes">
+        <h2>Soluções para o Lixo Eletrônico</h2>
+        <p>Reciclagem e reutilização de componentes são soluções para reduzir o impacto ambiental do lixo eletrônico. Além disso, é importante promover o descarte consciente.</p>
+    </section>
+    <section id="pontos-de-coleta">
+      <h2>sites que podem ajudar:</h2>
+      <ul>
+          <li><a href="https://coletalixo.curitiba.pr.gov.br/lixo-reciclavel" target="_blank">prefeitura de curitiba</a></li>
+          <li><a href="https://www.curitiba.pr.gov.br/servicos/ecopontos-descarte-correto-de-residuos/716" target="_blank">ecopontos</a></li>
+      </ul>
+  </section>
+</body>
 </html>
